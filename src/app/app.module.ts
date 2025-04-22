@@ -6,12 +6,12 @@ import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { LoginComponent } from './auth/components/login/login.component';
 import { SignupComponent } from './auth/components/signup/signup.component';
-
+import { QueryInputComponent } from './components/query-input/query-input.component';
 
 @NgModule({
   declarations: [
     AppComponent,
-    
+    QueryInputComponent
   ],
   imports: [
     BrowserModule,
